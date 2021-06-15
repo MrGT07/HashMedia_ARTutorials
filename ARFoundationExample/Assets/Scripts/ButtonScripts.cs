@@ -4,27 +4,14 @@ using UnityEngine;
 public class ButtonScripts : MonoBehaviour
 {
     private string _btnName;
-    public GameObject cata;
-    private void Update()
+    [SerializeField]
+    private GameObject _cata;
+    [SerializeField]
+    private GameObject _menu;
+
+    private void Start()
     {
-        if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-            RaycastHit hit;
-            if(Physics.Raycast(ray, out hit))
-            {
-                _btnName = hit.transform.name;
-                switch (_btnName)
-                {
-                    case "backButton":
-                        goBack();
-                        break;
-                    case "CloseButton":
-                        goClose();
-                        break;
-                }
-            }
-        }
+        _cata.SetActive(false);
     }
 
     //BACK
@@ -32,15 +19,19 @@ public class ButtonScripts : MonoBehaviour
     {
         SceneManager.LoadScene("main");
     }
-
+    //CLOSE
     public void goClose()
     {
-        transform.parent.parent.gameObject.SetActive(false);
+        this.transform.parent.parent.gameObject.SetActive(false);
+        InteractionWithCatalogue.isActive = true;
+        _cata.SetActive(true);
     }
-
-    public void test()
+    //START
+    public void goStart()
     {
         this.gameObject.SetActive(false);
-        cata.SetActive(true);
+        InteractionWithCatalogue.isActive = true;
+        _cata.SetActive(true);
+       
     }
 }
