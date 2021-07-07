@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class ButtonScripts : MonoBehaviour
 {
-    private string _btnName;
     [SerializeField]
     private GameObject _cata;
     [SerializeField]

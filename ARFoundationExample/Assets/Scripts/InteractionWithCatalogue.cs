@@ -43,7 +43,6 @@ public class InteractionWithCatalogue : MonoBehaviour
             }
         }
     }
-
     private void _openMenu(string categoryName)
     {
         switch (categoryName) //Switch using button names

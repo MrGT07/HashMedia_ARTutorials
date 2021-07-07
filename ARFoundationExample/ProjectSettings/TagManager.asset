@@ -6,6 +6,7 @@ TagManager:
   tags:
   - plane
   - hasInfo
+  - MenuItem
   layers:
   - Default
   - TransparentFX
