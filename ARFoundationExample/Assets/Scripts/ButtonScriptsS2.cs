@@ -1,10 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Video;
 
 public class ButtonScriptsS2 : MonoBehaviour
 {
     private bool _isPaused = false;
+    [SerializeField]
+    private VideoPlayer _videoPlayer;
     [SerializeField]
     private GameObject _playBtn;
     [SerializeField]
@@ -20,7 +21,7 @@ public class ButtonScriptsS2 : MonoBehaviour
     {
         if (_isPaused)
         {
-            Time.timeScale = 1f;
+            _videoPlayer.Play();
             _playBtn.SetActive(false);
             _pauseBtn.SetActive(true);
             _isPaused = false;
@@ -35,7 +36,7 @@ public class ButtonScriptsS2 : MonoBehaviour
     {
         if (!_isPaused)
         {
-            Time.timeScale = 0f;
+            _videoPlayer.Pause();
             _pauseBtn.SetActive(false);
             _playBtn.SetActive(true);
             _isPaused = true;

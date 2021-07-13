@@ -6,8 +6,8 @@ using System;
 
 public class InteractionWithMenu : MonoBehaviour
 {
-    [HideInInspector]
-    public static int id = -1;
+    private int id = -1;
+    private string category;
     private void Update()
     {
         if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
@@ -19,7 +19,10 @@ public class InteractionWithMenu : MonoBehaviour
                 if(hit.collider.tag == "MenuItem")
                 {
                     id = Int16.Parse(hit.collider.name);
+                    category = hit.collider.gameObject.transform.parent.name;
                     Debug.Log("ID = " + id);
+                    TutIDHolder.id = id;
+                    TutIDHolder.category = category;
                     SceneManager.LoadScene("tutorials");
                 }
             }

@@ -5,9 +5,9 @@ using UnityEngine;
 public class TutIDHolder : MonoBehaviour
 {
     public static int id;
-    private void Awake()
-    {
-        id = InteractionWithMenu.id;
+    public static string category;
+    private void Awake() 
+    { 
         DontDestroyOnLoad(this.gameObject);
     }
 }

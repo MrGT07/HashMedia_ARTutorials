@@ -117,7 +117,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4167095487867897941}
-  m_LocalRotation: {x: 0, y: 0.40270475, z: 0, w: -0.91532993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 4167095487886548972}
   - component: {fileID: 4167095487886548971}
   - component: {fileID: 4167095487886548974}
+  - component: {fileID: 2226272658090282489}
   m_Layer: 0
   m_Name: CatalogueItemPrefab
   m_TagString: hasInfo
@@ -245,6 +246,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SectionInfo: {fileID: 4167095487867897942}
+--- !u!95 &2226272658090282489
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4167095487886548969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6d5d8ac529d88a54cacef71f49a5d8eb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4167095489119498664
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,12 +478,12 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
+    rgba: 4287482409
+  m_fontColor: {r: 0.16073336, g: 0.7924528, b: 0.5545438, a: 1}
+  m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.47486687, g: 0.11369702, b: 0.6886792, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
