@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class ButtonScriptsS2 : MonoBehaviour
 {
@@ -50,5 +51,10 @@ public class ButtonScriptsS2 : MonoBehaviour
     public void goCode()
     {
 
+    }
+
+    public void goBack()
+    {
+        SceneManager.LoadScene("main");
     }
 }

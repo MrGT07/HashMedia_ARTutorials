@@ -31,6 +31,5 @@ public class ButtonScripts : MonoBehaviour
         this.gameObject.SetActive(false);
         InteractionWithCatalogue.isActive = true;
         _cata.SetActive(true);
-       
     }
 }

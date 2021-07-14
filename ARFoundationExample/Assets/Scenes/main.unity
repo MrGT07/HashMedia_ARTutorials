@@ -640,7 +640,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813423944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd63dad774725d749ade120f791e6db0, type: 3}
   m_Name: 
@@ -1365,7 +1365,7 @@ GameObject:
   - component: {fileID: 1547430560}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: welcome
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6659,6 +6659,46 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 813423945}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_FillCenter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574865355298559121, guid: 10a195dbb85422740af3cf2603ca7e45,
+        type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5574865355298559123, guid: 10a195dbb85422740af3cf2603ca7e45,
         type: 3}
       propertyPath: _cata
