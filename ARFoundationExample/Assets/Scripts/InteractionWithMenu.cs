@@ -20,7 +20,7 @@ public class InteractionWithMenu : MonoBehaviour
                 {
                     id = Int16.Parse(hit.collider.name);
                     category = hit.collider.gameObject.transform.parent.name;
-                    Debug.Log("ID = " + id);
+                    Debug.Log("ID = " + id + "\nCategory = " + category);
                     TutIDHolder.id = id;
                     TutIDHolder.category = category;
                     SceneManager.LoadScene("tutorials");

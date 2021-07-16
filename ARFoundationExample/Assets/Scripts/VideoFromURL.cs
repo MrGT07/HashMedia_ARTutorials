@@ -8,32 +8,28 @@ public class VideoFromURL : MonoBehaviour
     [SerializeField]
     private VideoPlayer _videoPlayer;
     private int _id;
+    private string _category;
+    [SerializeField]
+    private GameObject _screenHolder;
+    private Transform _parentTransform;
+    [HideInInspector]
+    public static GameObject temp;
 
     private void Start()
     {
         InvokeRepeating("_startVid", 2f, 5f);
+        _parentTransform = _screenHolder.transform;
     }
 
     private void _startVid()
     {
+        _category = TutIDHolder.category;
         _id = TutIDHolder.id;
         if (!_videoPlayer.isPlaying)
         {
-            switch (_id)
-            {
-                case 0:
-                    _videoPlayer.url = "http://localhost/Video/Welcome.mp4";
-                    break;
-                case 1:
-                    _videoPlayer.url = "http://localhost/video/20180201_144846.mp4";
-                    break;
-                case 2:
-                    _videoPlayer.url = "http://localhost/video/20180202_220106.mp4";
-                    break;
-                default:
-                    _videoPlayer.url = "http://localhost/video/Censor%20BEEP%20Sound%20EffectTV%20Error%20Clip.mp4";
-                    break;
-            }
+            temp = _parentTransform.Find(_category).gameObject.transform.GetChild(_id).gameObject.transform.Find("ContentHolder").gameObject;
+            Debug.Log("url = " + temp.GetComponent<LoadVideos>().url);
+            _videoPlayer.url = temp.GetComponent<LoadVideos>().url;
             _videoPlayer.audioOutputMode = VideoAudioOutputMode.AudioSource;
             _videoPlayer.EnableAudioTrack(0, true);
             _videoPlayer.Prepare();

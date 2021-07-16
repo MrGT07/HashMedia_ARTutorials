@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class ButtonScriptsS2 : MonoBehaviour
 {
     private bool _isPaused = false;
+    private bool _isDisplaying = false;
     [SerializeField]
     private VideoPlayer _videoPlayer;
     [SerializeField]
@@ -13,6 +14,8 @@ public class ButtonScriptsS2 : MonoBehaviour
     private GameObject _pauseBtn;
     [SerializeField]
     private GameObject _codeBtn;
+    private GameObject _target;
+
 
     private void Start()
     {
@@ -50,7 +53,24 @@ public class ButtonScriptsS2 : MonoBehaviour
 
     public void goCode()
     {
-
+        if (!_isDisplaying)
+        {
+            _target = VideoFromURL.temp;
+            _target.SetActive(true);
+            _isDisplaying = true;
+        }
+        else
+        {
+            _target.SetActive(false);
+            _isDisplaying = false;
+        }
+        if (!_videoPlayer.isPlaying)
+        {
+            _videoPlayer.Pause();
+            _pauseBtn.SetActive(false);
+            _playBtn.SetActive(true);
+            _isPaused = true;
+        }
     }
 
     public void goBack()
