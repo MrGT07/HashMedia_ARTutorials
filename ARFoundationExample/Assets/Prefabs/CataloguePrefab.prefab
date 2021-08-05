@@ -227,14 +227,12 @@ PrefabInstance:
       propertyPath: m_text
       value: '1. Wire1
 
-        2. Wire2
-
-        3. Wire3'
+        2. Wire2'
       objectReference: {fileID: 0}
     - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
         type: 3}
       propertyPath: m_fontSize
-      value: 1.3
+      value: 1.95
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 767f9f9e8372b034b99146349c4b73d2, type: 3}
@@ -339,16 +337,12 @@ PrefabInstance:
     - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
         type: 3}
       propertyPath: m_text
-      value: '1. Miscellaneous1
-
-        2. Miscellaneous2
-
-        3. Miscellaneous3'
+      value: Coming Soon!
       objectReference: {fileID: 0}
     - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
         type: 3}
       propertyPath: m_fontSize
-      value: 1.15
+      value: 1.95
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 767f9f9e8372b034b99146349c4b73d2, type: 3}
@@ -453,11 +447,27 @@ PrefabInstance:
     - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
         type: 3}
       propertyPath: m_text
-      value: '1. BoardType1
+      value: '1. Arduino Uno
 
-        2. BoardType2
+        2. Arduino Duemilanove
 
-        3. BoardType3'
+        3. Arduino
+        BT'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -0.041868597
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -0.035715014
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 767f9f9e8372b034b99146349c4b73d2, type: 3}
@@ -562,11 +572,12 @@ PrefabInstance:
     - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
         type: 3}
       propertyPath: m_text
-      value: '1. Project1
-
-        2. Project2
-
-        3. Project3'
+      value: 1. Project1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 1.95
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 767f9f9e8372b034b99146349c4b73d2, type: 3}
@@ -657,6 +668,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
+        type: 3}
+      propertyPath: m_text
+      value: '1. KY-026 Flame IR Sensor
+
+        2. KY-039 Heartbeat Sensor
+
+        3.
+        KY-019 Relay Module'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167095489365943742, guid: 767f9f9e8372b034b99146349c4b73d2,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 767f9f9e8372b034b99146349c4b73d2, type: 3}
