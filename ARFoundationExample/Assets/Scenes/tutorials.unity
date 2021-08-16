@@ -294,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Board1.png
+      value: http://tria.hashmedia.in/Images/Board1.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -568,7 +568,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Sensor3.png
+      value: http://tria.hashmedia.in/Images/Sensor3.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -669,6 +669,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 559217058}
     m_Modifications:
+    - target: {fileID: 4327188437107408895, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9aed2995c80908640bcef0176d5c7bad, type: 3}
     - target: {fileID: 4327188437157586158, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: m_Pivot.x
@@ -788,6 +793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Accessed Project2!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: url
+      value: http://tria.hashmedia.in/Video/Arduino Project.mp4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -1040,7 +1050,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Board2.png
+      value: http://tria.hashmedia.in/Images/Board2.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -1271,7 +1281,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Video/Arduino%20Project-Jaimin%2012_08_2020.mp4
+      value: http://tria.hashmedia.in/Video/Arduino Project.mp4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -1416,7 +1426,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Sensor2.png
+      value: http://tria.hashmedia.in/Images/Sensor2.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -1557,6 +1567,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSize
       value: 42.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: url
+      value: http://tria.hashmedia.in/Images/Project1.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -1868,7 +1883,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Wire1.png
+      value: http://tria.hashmedia.in/Images/Wire1.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -2488,6 +2503,11 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 42.9
       objectReference: {fileID: 0}
+    - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: url
+      value: http://tria.hashmedia.in/Images/Project1.png
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
 --- !u!224 &1583072747 stripped
@@ -2649,6 +2669,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 559217058}
     m_Modifications:
+    - target: {fileID: 4327188437107408895, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 12daa9b36a242674f8cdbda7de281122, type: 3}
     - target: {fileID: 4327188437157586158, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2768,6 +2793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Accessed Project3!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: url
+      value: http://tria.hashmedia.in/Video/Arduino Project.mp4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -3257,7 +3287,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Board3.png
+      value: http://tria.hashmedia.in/Images/Board3.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -3393,6 +3423,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Accessed Wire3!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: url
+      value: http://tria.hashmedia.in/Images/Wire1.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -3602,7 +3637,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Wire2.png
+      value: http://tria.hashmedia.in/Images/Wire2.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -3743,6 +3778,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSize
       value: 42.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
+        type: 3}
+      propertyPath: url
+      value: http://tria.hashmedia.in/Images/Project1.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
@@ -3953,7 +3993,7 @@ PrefabInstance:
     - target: {fileID: 5655254893249760737, guid: 6a5e6e73bf39a964db743d99423795b2,
         type: 3}
       propertyPath: url
-      value: ftp://arcatalog%2540tria.hashmedia.in@173.201.181.154/Images/Sensor1.png
+      value: http://tria.hashmedia.in/Images/Sensor1.png
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5e6e73bf39a964db743d99423795b2, type: 3}
